@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:models/models.dart';
-
 import '../shared/widgets/avatars/circle_avatar_with_text_label.dart';
 import '../shared/widgets/bottom_nav_bars/main_nav_bar.dart';
 import '../shared/widgets/cards/appointment_preview_card.dart';
@@ -39,12 +37,12 @@ class HomeView extends StatelessWidget {
               'Welcome',
               style: textTheme.bodyMedium,
             ),
-            SizedBox(height: 4.0),
+            const SizedBox(height: 4.0),
             Text(
               'Massimo D',
               style: textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 4.0),
+            const SizedBox(height: 4.0),
             Row(
               children: [
                 Icon(
